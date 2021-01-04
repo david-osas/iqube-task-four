@@ -7,7 +7,7 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 
 public class IntroViewPagerAdapter extends FragmentStateAdapter {
-    private final int NUM_PAGES = 3;
+    public static final int NUM_PAGES = 3;
 
     public IntroViewPagerAdapter(@NonNull FragmentActivity fragmentActivity) {
         super(fragmentActivity);

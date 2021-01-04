@@ -7,5 +7,6 @@
     <string name="secondIntroHeading">Build your dream now, no obstacles!</string>
     <string name="thirdIntroHeading">Help the community get better</string>
     <string name="introCD">intro image</string>
-    <string name="introBtn">Continue</string>
+    <string name="introBtnText1">Continue</string>
+    <string name="introBtnText2">Get Started</string>
 </resources>
