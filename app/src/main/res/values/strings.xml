@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Lendbak</string>
+    <string name="logoText">why buy when you can lend...</string>
+    <string name="logoCD">app logo image</string>
+    <string name="introText">Do you have things other people need? Great! Start making some cool cash by lending to other people.</string>
+    <string name="firstIntroHeading">Make extra cash from your stuff</string>
+    <string name="firstIntroCD">first intro image</string>
 </resources>
