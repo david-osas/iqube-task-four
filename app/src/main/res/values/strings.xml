@@ -4,5 +4,8 @@
     <string name="logoCD">app logo image</string>
     <string name="introText">Do you have things other people need? Great! Start making some cool cash by lending to other people.</string>
     <string name="firstIntroHeading">Make extra cash from your stuff</string>
-    <string name="firstIntroCD">first intro image</string>
+    <string name="secondIntroHeading">Build your dream now, no obstacles!</string>
+    <string name="thirdIntroHeading">Help the community get better</string>
+    <string name="introCD">intro image</string>
+    <string name="introBtn">Continue</string>
 </resources>

@@ -16,7 +16,7 @@ public class IntroViewPagerAdapter extends FragmentStateAdapter {
     @NonNull
     @Override
     public Fragment createFragment(int position) {
-        return new FirstIntroFragment();
+        return FirstIntroFragment.newInstance(position);
     }
 
     @Override
