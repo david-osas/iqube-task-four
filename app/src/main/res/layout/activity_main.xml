@@ -52,7 +52,7 @@
         android:layout_marginBottom="30dp"
         android:background="@drawable/button_grad"
         android:onClick="showIntro"
-        android:text="@string/introBtnText1"
+        android:text="@string/continueBtn"
         android:textColor="@color/btnText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

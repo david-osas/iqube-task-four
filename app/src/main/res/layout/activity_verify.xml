@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyActivity">
+
+    <ImageView
+        android:id="@+id/verifyImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:contentDescription="@string/verifyCD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/verify1" />
+
+    <TextView
+        android:id="@+id/verifyTitle"
+        android:layout_width="249dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/verifyEmailTitle"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verifyImg" />
+
+    <TextView
+        android:id="@+id/verifyText"
+        android:layout_width="306dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/verifyEmailText"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verifyTitle" />
+
+    <Button
+        android:id="@+id/verifyBtn"
+        android:layout_width="354dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/button_grad"
+        android:onClick="verifyDetails"
+        android:text="@string/continueBtn"
+        android:textColor="@color/btnText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verifyOtp" />
+
+    <EditText
+        android:id="@+id/verifyOtp"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="22dp"
+        android:autofillHints="smsOTPCode"
+        android:background="@drawable/input_round"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="23dp"
+        android:ems="10"
+        android:hint="@string/verifyOtp"
+        android:inputType="number"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/verifyBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verifyText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

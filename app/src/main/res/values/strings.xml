@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Lendbak</string>
+<!--    General strings-->
+    <string name="continueBtn">Continue</string>
+    <string name="getStartedBtn">Get Started</string>
+    <string name="verifyBtn">Verify</string>
+
     <!--    Main Activity-->
     <string name="logoText">why buy when you can lend…</string>
     <string name="logoCD">app logo image</string>
@@ -8,8 +13,6 @@
     <string name="secondIntroHeading">Build your dream now, no obstacles!</string>
     <string name="thirdIntroHeading">Help the community get better</string>
     <string name="introCD">intro images</string>
-    <string name="introBtnText1">Continue</string>
-    <string name="introBtnText2">Get Started</string>
 
     <!--    Login Activity-->
     <string name="login">Login</string>
@@ -31,4 +34,12 @@
     <string name="googleCD">Google icon</string>
     <string name="appleCD">Apple icon</string>
     <string name="facebookCD">Facebook icon</string>
+
+<!--    Verify Activity-->
+    <string name="verifyEmailTitle">Verify your email address</string>
+    <string name="verifyEmailText">We have sent you an email with a link to verify your email address.</string>
+    <string name="verifyPhoneTitle">Verify your phone number</string>
+    <string name="verifyPhoneText">We have sent an OTP PIN via SMS to the number you entered.</string>
+    <string name="verifyOtp">PIN</string>
+    <string name="verifyCD">verify icon</string>
 </resources>
