@@ -1,5 +1,6 @@
 package com.example.lendbak;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.viewpager2.widget.ViewPager2;
@@ -9,6 +10,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.lendbak.databinding.ActivityMainBinding;
+import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.tabs.TabLayoutMediator;
 
 public class MainActivity extends FragmentActivity {
 
@@ -28,6 +31,13 @@ public class MainActivity extends FragmentActivity {
         binding.button.setText(R.string.continueBtn);
 
         viewPagerListener();
+        TabLayout tabLayout = binding.tabLayout;
+        new TabLayoutMediator(tabLayout, viewPager, new TabLayoutMediator.TabConfigurationStrategy() {
+            @Override
+            public void onConfigureTab(@NonNull TabLayout.Tab tab, int position) {
+
+            }
+        }).attach();
     }
 
     public void showIntro(View view){

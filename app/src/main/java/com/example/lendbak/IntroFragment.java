@@ -1,7 +1,5 @@
 package com.example.lendbak;
 
-import android.content.Context;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -12,7 +10,7 @@ import android.view.ViewGroup;
 
 import com.example.lendbak.databinding.FragmentFirstIntroBinding;
 
-public class FirstIntroFragment extends Fragment {
+public class IntroFragment extends Fragment {
 
     private static final String ARG_PARAM1 = "positon";
     private int position = 0;
@@ -20,13 +18,13 @@ public class FirstIntroFragment extends Fragment {
     private int[] images = {R.drawable.first_intro, R.drawable.second_intro, R.drawable.third_intro};
     private int[] headings = {R.string.firstIntroHeading, R.string.secondIntroHeading, R.string.thirdIntroHeading};
 
-    public FirstIntroFragment() {
+    public IntroFragment() {
         // Required empty public constructor
     }
 
 
-    public static FirstIntroFragment newInstance(int param1) {
-        FirstIntroFragment fragment = new FirstIntroFragment();
+    public static IntroFragment newInstance(int param1) {
+        IntroFragment fragment = new IntroFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_PARAM1, param1);
         fragment.setArguments(args);

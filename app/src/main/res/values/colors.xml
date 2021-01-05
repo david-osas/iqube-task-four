@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#FFCB27</color>
 
+    <color name="title">#001029</color>
     <color name="btnGradStart">#6FA4FF</color>
     <color name="btnGradEnd">#3580FF</color>
     <color name="btnText">#FFFFFF</color>
