@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Lendbak</string>
-<!--    General strings-->
+    <!--    General strings-->
+    <string name="dummyHomeText">Welcome to the homepage</string>
     <string name="continueBtn">Continue</string>
     <string name="getStartedBtn">Get Started</string>
     <string name="verifyBtn">Verify</string>
@@ -35,7 +36,7 @@
     <string name="appleCD">Apple icon</string>
     <string name="facebookCD">Facebook icon</string>
 
-<!--    Verify Activity-->
+    <!--    Verify Activity-->
     <string name="verifyEmailTitle">Verify your email address</string>
     <string name="verifyEmailText">We have sent you an email with a link to verify your email address.</string>
     <string name="verifyPhoneTitle">Verify your phone number</string>
