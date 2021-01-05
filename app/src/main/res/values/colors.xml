@@ -2,5 +2,11 @@
 <resources>
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorAccent">#FFCB27</color>
+
+    <color name="btnGradStart">#6FA4FF</color>
+    <color name="btnGradEnd">#3580FF</color>
+    <color name="btnText">#FFFFFF</color>
+    <color name="inputBg">#FFFFFF</color>
+    <color name="forgotRed">#EB5757</color>
 </resources>

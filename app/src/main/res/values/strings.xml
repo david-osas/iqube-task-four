@@ -1,12 +1,31 @@
 <resources>
     <string name="app_name">Lendbak</string>
-    <string name="logoText">why buy when you can lend...</string>
+<!--    Main Activity-->
+    <string name="logoText">why buy when you can lend…</string>
     <string name="logoCD">app logo image</string>
     <string name="introText">Do you have things other people need? Great! Start making some cool cash by lending to other people.</string>
     <string name="firstIntroHeading">Make extra cash from your stuff</string>
     <string name="secondIntroHeading">Build your dream now, no obstacles!</string>
     <string name="thirdIntroHeading">Help the community get better</string>
-    <string name="introCD">intro image</string>
+    <string name="introCD">intro images</string>
     <string name="introBtnText1">Continue</string>
     <string name="introBtnText2">Get Started</string>
+
+<!--    Login Activity-->
+    <string name="login">Login</string>
+    <string name="loginBtn">Log in</string>
+    <string name="loginSub">Enter your email and password</string>
+    <string name="remember">Remember me</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="noAccount">Don’t have an account?</string>
+
+<!--    Sign up Activity-->
+    <string name="signup">Sign up</string>
+    <string name="signupSub">Enter your credentials to continue</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="signupOptions">Or sign up with</string>
+    <string name="hasAccount">Already have an account?</string>
 </resources>

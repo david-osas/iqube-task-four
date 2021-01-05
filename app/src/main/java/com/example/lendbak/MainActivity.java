@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.viewpager2.widget.ViewPager2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -34,7 +35,10 @@ public class MainActivity extends FragmentActivity {
 
     public void showIntro(View view){
         int current = viewPager.getCurrentItem();
-        if(current < IntroViewPagerAdapter.NUM_PAGES-1){
+        if(current == IntroViewPagerAdapter.NUM_PAGES-1){
+            Intent intent = new Intent(this, LoginActivity.class);
+            startActivity(intent);
+        }else if(current < IntroViewPagerAdapter.NUM_PAGES-1){
             viewPager.setCurrentItem(current+1);
         }
     }
